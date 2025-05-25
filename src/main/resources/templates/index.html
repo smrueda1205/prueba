@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+	<style>
+	    body {
+	        background: linear-gradient(135deg, #121212, #1f1f1f);
+	        font-family: 'Arial', sans-serif;
+	        color: #f5f5f5;
+	        text-align: center;
+	        padding: 50px;
+	    }
+
+	    h1 {
+	        color: #ffffff;
+	        margin-bottom: 30px;
+	        font-weight: 600;
+	    }
+
+	    .btn-custom {
+	        font-size: 1.1rem;
+	        padding: 12px 20px;
+	        border-radius: 5px;
+	        text-decoration: none;
+	        font-weight: bold;
+	        margin: 0 10px;
+	        transition: background-color 0.3s ease, color 0.3s ease;
+	        border: none;
+	    }
+
+	    .btn-register {
+	        background-color: #ffffff;
+	        color: #121212;
+	    }
+
+	    .btn-register:hover {
+	        background-color: #e0e0e0;
+	        color: #000000;
+	    }
+
+	    .btn-show {
+	        background-color: #2c2c2c;
+	        color: #f5f5f5;
+	    }
+
+	    .btn-show:hover {
+	        background-color: #000000;
+	        color: #ffffff;
+	    }
+
+	    .container {
+	        max-width: 600px;
+	        margin: 0 auto;
+	    }
+
+	    .btn-row {
+	        display: flex;
+	        justify-content: center;
+	        gap: 20px;
+	        flex-wrap: wrap;
+	        margin-top: 20px;
+	    }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido al sistema de registro de equipos</h1>
+        <div class="btn-row">
+            <a href="/verequipo/formequipo" class="btn btn-custom btn-register">
+                <i class="fas fa-plus-circle"></i> Registrar un nuevo equipo
+            </a>
+            
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
+
